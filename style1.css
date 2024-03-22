@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #ffeec8;
+}
+.about, .mission, .vision, .motto{
+    margin: 2vw 2vw 1vw 2vw;
+    padding: 2vw;
+    border-radius: 20px;
+    color: #dcdcdc;
+    background-color: #121212;
+     box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 10px 20px rgba(0, 0, 0, 0.15),
+    0 15px 25px rgba(0, 0, 0, 0.2);
+}
+.about p, .mission p, .vision p, .motto p{
+    padding-top: 1vw;
+}
+.about h1, .mission h1, .vision h1, .motto h1{
+    padding-bottom: 1vw;
+}
+hr{
+    width: 90%;
+}
+.us{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 2vw 3vw 1vw 3vw;
+}
+
+footer{
+    width: 100vw;
+    position: absolute;
+}
+.container, .social-media, .copyright{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.social-media{
+    gap: 3vw;
+}
+.social-media img{
+    width: 1.5vw;
+}
+
+.newsletter form{
+    display: flex;
+    max-width: 300px; 
+    margin: 0 auto;
+}
+  
+.newsletter input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+}
+.newsletter button {
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+  
+.newsletter button:hover {
+    background-color: #0056b3; 
+}

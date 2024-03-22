@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="icon" href="New Project 54 [25F745C].png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form id="form" method="get" onsubmit="return validate()" class="Form" action="action.html">
+         <ul>
+             <li>
+                <label for="name" name="label">Enter your Name</label>
+                <input type="text" placeholder="Enter your Name" required name="name"></li>
+             <li>
+                <label for="email" name="label">Enter your Email</label>
+                <input type="email" placeholder="Enter your Email" required name="email">
+            </li>
+             <li>
+                <label for="tel" name="label">Enter your Phone Number</label>
+                <input type="tel" placeholder="Enter your Phone Number" required name="tel">
+            </li>
+             <li>
+                <label for="pass1" name="label">Enter your password</label>
+                <input type="password" placeholder="Enter your password" required name="pass1">
+            </li>
+             <li>
+                <label for="pass2" name="label">Confirm your password</label>
+                <input type="password" placeholder="Confirm your password" required name="pass2">
+            </li>
+             <li>
+                <label for="city" name="label">Enter your city</label>
+                <input type="text" placeholder="Enter your City" required name="city">
+            </li>
+             <li>
+                <label for="state" name="label">Enter your State</label>
+                <input type="text" placeholder="Enter your State" required name="state">
+            </li>
+             <li>
+                <label for="country" name="label">Enter your Country</label>
+                <input type="text" placeholder="Enter your Country" required name="country">
+            </li>
+             <li>
+                <label for="pincode" name="label">Enter your Pincode</label>
+                <input type="number" placeholder="Enter your Pincode" required name="pincode">
+            </li>
+             <li>
+                <label for="age" name="label">Enter your age</label>
+                <input type="number" placeholder="Enter your age" required name="age">
+            </li>
+         </ul>
+         <div class="buttons">
+             <button type="submit" class="submit">Submit</button>
+             <button type="reset" class="reset">Reset</button>
+         </div>
+        </form>
+        <footer>
+            <div class="container">
+            <div class="contact-info">
+                <p>Email: info@snapnstick.com</p>
+                <p>Phone: +91 98765 43218</p>
+                <p>Andrahalli main road, Nagasandra, Bengaluru</p>
+            </div>
+        </div>
+            <div class="social-media">
+                <a href="https://www.instagram.com/" target="_blank"><img src="iglogo.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+            </div>
+            <div class="container">
+            <div class="newsletter">
+                <p>Subscribe to our newsletter for updates:</p>
+                <form action="/subscribe" method="post">
+                    <input type="email" name="email" placeholder="Your email" class="newsletter-input">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div> 
+            <div class="copyright">
+                <p>&copy; 2024 Snap 'n' Stick. All rights reserved.</p>
+            </div>
+        </footer>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
