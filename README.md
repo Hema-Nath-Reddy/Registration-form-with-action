@@ -1,1 +1,1 @@
-# Registration-form-with-action
+This is a registration form which contains 10 different inputs and javascript has been applied to make the registration form more user friendly along with form validation and it also contains another webpage which is used in the "action" of the form 
